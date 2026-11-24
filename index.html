@@ -162,6 +162,8 @@
       .card-actions{ display:flex; flex-wrap:wrap; gap:8px; }
       .card-actions .btn{ flex:1 1 auto; }
       .statusline{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+      .demo-note{ font-size:.84rem; font-weight:600; color:var(--navy-text); background:#fef3c7; border:1px solid var(--line-navy2); border-radius:10px; padding:9px 12px; }
+      .demo-card .card-actions{ margin-top:auto; }
 
       /* ---------- Modal ---------- */
       .overlay{ position:fixed; inset:0; background:rgba(18,10,6,.82); backdrop-filter:blur(6px); z-index:90; display:none; align-items:flex-end; justify-content:center; padding:0; }
@@ -498,7 +500,7 @@
         <a class="brandmark" href="#top"><span class="sq">S/</span> SHIZCON</a>
         <nav class="nav-links" aria-label="Main">
           <a href="#software">Software</a>
-          <a href="#website-demos" class="hide-m">Website Demos</a>
+          <a href="#live-demos" class="hide-m">Live Demos</a>
           <a href="#automation" class="hide-m">Automation</a>
           <a href="#pricing" class="hide-m">Pricing</a>
           <a href="#how" class="hide-m">How to Buy</a>
@@ -531,7 +533,7 @@
             <div>
               <span class="jv-live-tag"><span class="dot" aria-hidden="true"></span> Live Voice Chat — Try It Now</span>
               <h2 class="jv-name">Shizcon</h2>
-              <p class="jv-tag">Assalam-o-Alaikum! Main <strong>Shizcon</strong> hoon — Fayaz ki AI voice assistant (Jervis AI ki character). Mic dabao aur mujh se bolo, ya neeche type karo. <strong>Is poori website ki har cheez mere paas hai</strong> — saare 8 products ki details aur prices, 5 live website demos, 5 automation services, Jervis ke teeno packages, How to Buy ke steps, saare FAQ, About, Privacy aur order ka tareeqa. Jo bhi is website par hai, pooch lein — main jawab dungi, Roman Urdu + English mix mein, bilkul dost ki tarah.</p>
+              <p class="jv-tag">Assalam-o-Alaikum! Main <strong>Shizcon</strong> hoon — Fayaz ki AI voice assistant (Jervis AI ki character). Mic dabao aur mujh se bolo, ya neeche type karo. <strong>Is poori website ki har cheez mere paas hai</strong> — saare 8 products ki details aur prices, 12 live demos, 5 automation services, Jervis ke teeno packages, How to Buy ke steps, saare FAQ, About, Privacy aur order ka tareeqa. Jo bhi is website par hai, pooch lein — main jawab dungi, Roman Urdu + English mix mein, bilkul dost ki tarah.</p>
               <div class="jv-chat">
                 <div class="jv-log" id="jvLog" aria-live="polite"></div>
                 <div class="jv-chips">
@@ -567,7 +569,7 @@
             </div>
             <div class="hero-stats" role="list" aria-label="Hub facts">
               <div class="hstat" role="listitem"><b>8</b><span>Products listed</span></div>
-              <div class="hstat" role="listitem"><b>3</b><span>Live demos online</span></div>
+              <div class="hstat" role="listitem"><b>12</b><span>Live demos listed</span></div>
               <div class="hstat" role="listitem"><b>2</b><span>Working demos on this page</span></div>
               <div class="hstat" role="listitem"><b>100%</b><span>Free tools, no sign-up</span></div>
             </div>
@@ -583,8 +585,12 @@
               <a href="https://chattertoon9-ai.github.io/Shizco1/" target="_blank" rel="noopener">Open demo →</a>
             </div>
             <div class="live-row">
-              <div><div class="nm">Alasad Constructors Website</div><div class="ds">Completed company website &amp; preview build</div></div>
-              <a href="https://alasadconstructors.com/test2/" target="_blank" rel="noopener">Visit site →</a>
+              <div><div class="nm">Restaurant &amp; Hotel System</div><div class="ds">Live demo — orders, kitchen, billing, table QR</div></div>
+              <a href="https://chattertoon9-ai.github.io/resturant-shiz/" target="_blank" rel="noopener">Open demo →</a>
+            </div>
+            <div class="live-row">
+              <div><div class="nm">Alasad Constructors Website</div><div class="ds">Completed company website, live now</div></div>
+              <a href="https://alasadconstructors.com/" target="_blank" rel="noopener">Visit site →</a>
             </div>
             <div class="live-row">
               <div><div class="nm">Jervis AI — Security Shield</div><div class="ds">Try the phishing link checker below</div></div>
@@ -627,53 +633,122 @@
         </div>
       </section>
 
-      <!-- ================= WEBSITE DEMOS ================= -->
-      <section class="alt" id="website-demos">
+      <!-- ================= LIVE DEMOS ================= -->
+      <section class="alt" id="live-demos">
         <div class="wrap">
           <div class="sec-head">
-            <h2>Website Demos</h2>
-            <p>Live websites built and run by Fayaz — open any demo in a new tab and explore the real site.</p>
+            <h2>Live Demos</h2>
+            <p>Every software, website and tool Fayaz has built — with a working demo. Open any demo in a new tab, check it yourself, and use <strong>Order / Enquire</strong> on the same card to reach the order form.</p>
           </div>
           <div class="grid">
-            <article class="card">
+            <article class="card demo-card">
               <div class="card-top">
-                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h13M13 3l4 4-4 4M20 17H7m4 4-4-4 4-4"/></svg></span>
-                <div><h3>Unit Converter</h3><div class="cat">converters.alasadconstructors.com</div></div>
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="5" width="16" height="12" rx="3"/><path d="M9 21h6M12 17v4"/><circle cx="9" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="15" cy="11" r="1" fill="currentColor" stroke="none"/></svg></span>
+                <div><h3>AI Agent Platform</h3><div class="cat">shizcon.github.io/ai-agent-platform</div></div>
               </div>
-              <p class="desc">Free online unit converter — Length, Temperature, Area, Volume, Weight and Time — with 11 conversion guides.</p>
-              <div class="card-actions"><a class="btn btn-brand" href="https://converters.alasadconstructors.com/" target="_blank" rel="noopener">Live Demo →</a></div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">AI agents banayein — website chatbot aur call agent, ready to use.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://shizcon.github.io/ai-agent-platform/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="AI Agent Platform">Order / Enquire</button></div>
             </article>
-            <article class="card">
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 18h16"/><path d="M5 18a7 7 0 0 1 14 0"/><path d="M12 11V9.5"/><circle cx="12" cy="8" r="1"/><path d="M3 21h18"/></svg></span>
+                <div><h3>Restaurant &amp; Hotel Management System</h3><div class="cat">chattertoon9-ai.github.io/resturant-shiz</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Restaurant orders, kitchen, billing aur table QR — live demo.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://chattertoon9-ai.github.io/resturant-shiz/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Restaurant & Hotel Management System">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15a8 8 0 0 1 6-7.6V5h4v2.4a8 8 0 0 1 6 7.6"/><path d="M2 15h20v3.5H2z"/><path d="M2 21h20"/></svg></span>
+                <div><h3>Moosa Enterprises</h3><div class="cat">chattertoon9-ai.github.io/moosa-enterprises</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Construction company website — Moosa Enterprises, Karachi.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://chattertoon9-ai.github.io/moosa-enterprises/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Business Website (like Alasad Constructors)">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7Z"/></svg></span>
+                <div><h3>Free Tools Hub</h3><div class="cat">chattertoon9-ai.github.io/free-tools-hub</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span><span class="tag tag-free">Free</span></div>
+              <p class="desc">10 free online tools — converters aur calculators, no sign-up.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://chattertoon9-ai.github.io/free-tools-hub/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Free Tools Hub">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg></span>
+                <div><h3>Alasad Constructors</h3><div class="cat">alasadconstructors.com</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Construction company website — Alasad Constructors (Pvt) Ltd.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://alasadconstructors.com/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Business Website (like Alasad Constructors)">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
               <div class="card-top">
                 <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></span>
                 <div><h3>StudyHive9</h3><div class="cat">studyhive9.blogspot.com</div></div>
               </div>
-              <p class="desc">Sindh Board Class 1–12 notes, past papers and study plans for students.</p>
-              <div class="card-actions"><a class="btn btn-brand" href="https://studyhive9.blogspot.com/" target="_blank" rel="noopener">Live Demo →</a></div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Class 1–12 notes aur study material — Sindh Board students ke liye.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://studyhive9.blogspot.com/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Custom software project">Order / Enquire</button></div>
             </article>
-            <article class="card">
+            <article class="card demo-card">
               <div class="card-top">
-                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg></span>
-                <div><h3>BytePulse News</h3><div class="cat">thehookvault.blogspot.com</div></div>
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h13M13 3l4 4-4 4M20 17H7m4 4-4-4 4-4"/></svg></span>
+                <div><h3>Converters — Unit Converter</h3><div class="cat">converters.alasadconstructors.com</div></div>
               </div>
-              <p class="desc">AI tools and tech news — the latest tools, trends and explainers.</p>
-              <div class="card-actions"><a class="btn btn-brand" href="https://thehookvault.blogspot.com/" target="_blank" rel="noopener">Live Demo →</a></div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span><span class="tag tag-free">Free</span></div>
+              <p class="desc">Unit converter tools — Length, Temperature, Area, Volume, Weight, Time.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://converters.alasadconstructors.com/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Custom software project">Order / Enquire</button></div>
             </article>
-            <article class="card">
+            <article class="card demo-card">
               <div class="card-top">
-                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21C7 17.5 4 14 4 10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4-3 7.5-8 11z"/></svg></span>
-                <div><h3>NutriFuel HQ</h3><div class="cat">nutrifuelhq.blogspot.com</div></div>
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4 2 9l10 5 10-5-10-5Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"/><path d="M22 9v5"/></svg></span>
+                <div><h3>University CGPA &amp; Credit Hours Tool</h3><div class="cat">Online tool · muse.ai</div></div>
               </div>
-              <p class="desc">Health and nutrition guides for everyday wellbeing.</p>
-              <div class="card-actions"><a class="btn btn-brand" href="https://nutrifuelhq.blogspot.com/" target="_blank" rel="noopener">Live Demo →</a></div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">CGPA aur credit hours calculator — university students ke liye.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://muse.ai/s/university-cgpa-credit-hours-tool-uxq6xwdxfkxy2w4/MjSyyK8ZFbw2RTRTHVZ64VzW5v7SWzeIXmsTHkcSl5w" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="University CGPA &amp; Credit Hours Tool">Order / Enquire</button></div>
             </article>
-            <article class="card">
+            <article class="card demo-card">
               <div class="card-top">
-                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg></span>
-                <div><h3>QuickGrad</h3><div class="cat">quickgrad.blogspot.com</div></div>
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10"/><circle cx="12" cy="14" r="2.4"/></svg></span>
+                <div><h3>Novex Agent System</h3><div class="cat">Agent system demo · muse.ai</div></div>
               </div>
-              <p class="desc">Grade, percentage, age, BMI and loan calculators — in English and Arabic.</p>
-              <div class="card-actions"><a class="btn btn-brand" href="https://quickgrad.blogspot.com/" target="_blank" rel="noopener">Live Demo →</a></div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Agent rooms aur automation system — Novex demo.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://muse.ai/s/novex-agent-system-static-xww6xwtwxsrxcxck/hRIeNXoxkXWvUOs0hU8evA7Lb0PnSN_2EeR4w8cRD1Q" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Novex Agent System">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg></span>
+                <div><h3>AI Map Planner</h3><div class="cat">Map planner demo · muse.ai</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">2D aur 3D house map plan banayein — AI Map Planner.</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://muse.ai/s/ai-map-planner-gw6xwtxzkxrxtxnc/6gJJzUQOqmEex-6mJqNs7QFb5B4fP5X0GnXxUQKDebM" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="AI Map Planner">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 21h20"/><path d="M6 21V8l6-5 6 5v13"/><path d="M10 21v-4h4v4"/></svg></span>
+                <div><h3>Shizco1 / Capp</h3><div class="cat">chattertoon9-ai.github.io/Shizco1</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-live">Live demo</span></div>
+              <p class="desc">Construction management system — projects, budgets, site logs.</p>
+              <p class="demo-note">Login required — demo access on request</p>
+              <div class="card-actions"><a class="btn btn-brand btn-small" href="https://chattertoon9-ai.github.io/Shizco1/" target="_blank" rel="noopener">Live Demo →</a><button class="btn btn-ghost btn-small" data-order="Shizco1 — Construction Management System">Order / Enquire</button></div>
+            </article>
+            <article class="card demo-card">
+              <div class="card-top">
+                <span class="picon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
+                <div><h3>Shizcon AI App</h3><div class="cat">Mobile app</div></div>
+              </div>
+              <div class="statusline"><span class="tag tag-dev">Demo on request</span></div>
+              <p class="desc">Mobile app — demo on request (mobile install).</p>
+              <div class="card-actions"><button class="btn btn-brand btn-small" data-order="Shizcon AI App">Enquire — Demo on Request</button></div>
             </article>
           </div>
         </div>
@@ -801,7 +876,7 @@
           </div>
           <div class="legal">
             <p>SHIZCON is the main storefront for the software built by <strong>Fayaz Ali</strong>, a developer and digital creator based in Karachi, Pakistan. His day-to-day work spans video editing, websites, blogging and YouTube — and this hub collects the software products that grew out of that work: tools he first built for his own channels, blogs and client projects, now packaged so other people and businesses can use them too.</p>
-            <p>The catalogue is deliberately practical. <strong>Jervis AI</strong> is a voice assistant that answers back, reports on the phone's battery, storage and network, and includes a Security Shield that checks suspicious links and messages before you act on them. <strong>Novex</strong> is an agent command center where AI agents handle blogging, YouTube, SEO and freelance work from one mobile-first dashboard. <strong>Shizco1</strong> runs construction projects — budgets, timelines, daily site logs and materials — and is live today. The <strong>Restaurant &amp; Hotel Management System</strong>, now in development, brings the same approach to tables, orders, rooms and bookings. And the <strong>Free Tools Hub</strong> keeps ten everyday calculators and converters free for anyone, forever.</p>
+            <p>The catalogue is deliberately practical. <strong>Jervis AI</strong> is a voice assistant that answers back, reports on the phone's battery, storage and network, and includes a Security Shield that checks suspicious links and messages before you act on them. <strong>Novex</strong> is an agent command center where AI agents handle blogging, YouTube, SEO and freelance work from one mobile-first dashboard. <strong>Shizco1</strong> runs construction projects — budgets, timelines, daily site logs and materials — and is live today. The <strong>Restaurant &amp; Hotel Management System</strong> — whose live demo is online now — brings the same approach to tables, orders, rooms and bookings. And the <strong>Free Tools Hub</strong> keeps ten everyday calculators and converters free for anyone, forever.</p>
             <p>Everything listed here is real and honestly labelled: live products link to their working demos, products in development say so, and prices are either published on this page or quoted in writing before work starts. Several products — including the Al Asad Constructors website — are already deployed and in daily use.</p>
             <p>Need something custom — a voice assistant for your business, a management system for your restaurant, hotel, school or office, or a complete website? Use the order form below and describe what you need. Every enquiry is answered personally.</p>
           </div>
@@ -816,9 +891,9 @@
           </div>
           <div style="max-width:860px">
             <details class="faq"><summary>How do I buy the full software?</summary><div class="a">Choose a product, click <strong>Buy / Order</strong>, and send the enquiry form. It opens a pre-filled email to shizconenterprises@gmail.com. You will receive a written reply confirming the exact scope, total price, delivery time and payment method. Nothing is charged and nothing is final until you accept that written quote.</div></details>
-            <details class="faq"><summary>Can I try before I buy?</summary><div class="a">Yes. Free Tools Hub and Shizco1 are live online — open them from the cards above and use them freely. Jervis AI has a working Security Shield demo on this page (open the Jervis details), and the Free Tools Hub card includes a working unit-converter demo. Novex and the other systems are shown with full feature lists and screenshots on request.</div></details>
+            <details class="faq"><summary>Can I try before I buy?</summary><div class="a">Yes. The <a href="#live-demos">Live Demos</a> section lists every demo in one place — AI Agent Platform, the Restaurant &amp; Hotel System demo, Moosa Enterprises, Free Tools Hub, Alasad Constructors, StudyHive9, Converters, the CGPA Tool, Novex, AI Map Planner and Shizco1 — each opening in a new tab. Jervis AI also has a working Security Shield demo on this page (open the Jervis details), and the Free Tools Hub card includes a working unit-converter demo.</div></details>
             <details class="faq"><summary>What does "cloud storage" mean for Jervis AI with Storage and the management systems?</summary><div class="a">Those editions save data — tasks, approvals, settings, orders, bookings — in a database instead of only in your browser. Your information is still there when you reload the page or come back on another day, instead of starting empty every time.</div></details>
-            <details class="faq"><summary>Is the Restaurant &amp; Hotel Management System ready?</summary><div class="a">It is in active development. The restaurant side (menu, tables, orders, billing) and hotel side (rooms, bookings, check-in/check-out, guests) come first; school and office modules follow in the same system. Send an enquiry to join the early list and you will be contacted when your module opens.</div></details>
+            <details class="faq"><summary>Is the Restaurant &amp; Hotel Management System ready?</summary><div class="a">Yes — its live demo is online now. Open it from the Live Demos section and try restaurant orders, kitchen flow, billing and table QR yourself. The hotel side (rooms, bookings, check-in/check-out, guests) is part of the same system; school and office modules follow. Send an enquiry for a full setup for your restaurant or hotel.</div></details>
             <details class="faq"><summary>Can you build a custom version for my business?</summary><div class="a">Yes — most products here started as custom builds. A voice assistant with your own character, a management system for your restaurant, hotel, school or office, or a complete business website like the Alasad Constructors site can all be quoted. Describe the project in the order form.</div></details>
             <details class="faq"><summary>Do the free tools collect my data?</summary><div class="a">No. The calculators and converters run entirely in your browser — the numbers you type are never sent anywhere or stored. See the Privacy Policy below for the full detail.</div></details>
           </div>
@@ -846,6 +921,11 @@
                   <option>Shizco1 — Construction Management System</option>
                   <option>Spark PC Helper</option>
                   <option>Business Website (like Alasad Constructors)</option>
+                  <option>AI Agent Platform</option>
+                  <option>AI Map Planner</option>
+                  <option>University CGPA &amp; Credit Hours Tool</option>
+                  <option>Shizcon AI App</option>
+                  <option>Free Tools Hub</option>
                   <option>YouTube Automation</option>
                   <option>WhatsApp Agent</option>
                   <option>Blogger Automation</option>
@@ -867,7 +947,7 @@
             </form>
             <div class="contact-card">
               <div class="contact-row"><div><div class="k">Email</div><a href="mailto:shizconenterprises@gmail.com">shizconenterprises@gmail.com</a></div></div>
-              <div class="contact-row"><div><div class="k">Live demos</div><div><a href="https://chattertoon9-ai.github.io/free-tools-hub/" target="_blank" rel="noopener">Free Tools Hub</a> · <a href="https://chattertoon9-ai.github.io/Shizco1/" target="_blank" rel="noopener">Shizco1</a></div></div></div>
+              <div class="contact-row"><div><div class="k">Live demos</div><div><a href="https://chattertoon9-ai.github.io/free-tools-hub/" target="_blank" rel="noopener">Free Tools Hub</a> · <a href="https://chattertoon9-ai.github.io/Shizco1/" target="_blank" rel="noopener">Shizco1</a> · <a href="https://chattertoon9-ai.github.io/resturant-shiz/" target="_blank" rel="noopener">Restaurant Demo</a> · <a href="#live-demos">All 12 live demos</a></div></div></div>
               <div class="contact-row"><div><div class="k">Based in</div><div style="font-weight:700">Karachi, Pakistan — working with clients in Pakistan, UAE, Saudi Arabia, Qatar, UK &amp; USA</div></div></div>
               <p style="color:var(--navy-text); font-size:.93rem">The Jervis AI packages on this page match the Fiverr gig packages — the Fiverr listings are in preparation, so email is the ordering channel for now.</p>
             </div>
@@ -911,6 +991,7 @@
           <nav aria-label="Site">
             <h4>Site</h4>
             <a href="#pricing">Pricing</a>
+            <a href="#live-demos">Live Demos</a>
             <a href="#how">How to Buy</a>
             <a href="#faq">FAQ</a>
             <a href="#about">About</a>
@@ -959,8 +1040,8 @@
         {
           id:"restaurant-hotel", name:"Restaurant & Hotel Management System", cat:"business", catLabel:"Business System · Restaurant + Hotel",
           featured:true,
-          status:"dev", statusLabel:"In development",
-          price:{from:"Early access", amt:"On request", per:"join the early list"},
+          status:"live", statusLabel:"Live demo online",
+          price:{from:"Pricing", amt:"On request", per:"live demo online"},
           desc:"One system for restaurants and hotels, with cloud storage. Restaurant side: menu, tables, orders and billing. Hotel side: rooms, bookings, check-in/check-out and guests. School and office modules follow in the same system.",
           feats:["Restaurant — menu, table map, live orders, billing","Hotel — rooms, bookings, check-in / check-out, guest records","Cloud database — records safe and available anywhere","Dashboard with daily reports for owners and staff"],
           icon:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/><path d="M16 9h3a1 1 0 0 1 1 1v11"/><path d="M2 21h20"/><path d="M8 7h2m-2 4h2m-2 4h2m4-8h0m0 4h0m0 4h0"/></svg>',
@@ -969,8 +1050,8 @@
             about:["A single management system built for the places that run on bookings, tables and daily cash: restaurants and hotels first, with school and office modules planned into the same product. Data lives in a cloud database, so the owner can check the day from anywhere and nothing is lost with a single device.",
             "The restaurant side covers the full floor flow — digital menu, table status, order taking, kitchen flow and billing. The hotel side covers rooms, availability, bookings, check-in and check-out, and guest records. A shared dashboard ties both together with daily reports."],
             features:["Restaurant: menu management, tables, orders, bills & daily closing","Hotel: room inventory, bookings calendar, check-in/out, guest history","Roles for owner, manager and staff","Built to extend: school and office modules in the same system"],
-            tiers:[["Early access — on request","Tell us your restaurant or hotel size and must-have features; early customers are onboarded first when their module opens."]],
-            demo:null
+            tiers:[["Full setup — on request","The live demo is free to explore. Tell us your restaurant or hotel size and must-have features for a full-setup quote."]],
+            demoLink:"https://chattertoon9-ai.github.io/resturant-shiz/", demoLabel:"Open the live demo"
           }
         },
         {
@@ -1076,7 +1157,7 @@
             "Dedicated pages cover QHSE policy with its 8 commitments, 6 safety milestones, and 5 certificates on an Awards & Certificates page. A companion WordPress site hosts the company's free unit converters — 13 pages of converters and guides with working navigation on desktop and mobile. Want a website at this level for your company? This is the reference build."],
             features:["Cinematic hero with the 'Build | Execute | Deliver' slogan","Current + completed project showcases with photography","Standalone QHSE and Awards pages","Delivered and verified live — main site untouched during preview builds"],
             tiers:[["Business website — on request","Company profile sites quoted per project after a short discovery call or email exchange."]],
-            demoLink:"https://alasadconstructors.com/test2/", demoLabel:"Visit the live preview"
+            demoLink:"https://alasadconstructors.com/", demoLabel:"Visit the live site"
           }
         }
       ];
@@ -1493,14 +1574,21 @@
         /* ---- Shizcon ka poora knowledge base: is website par jo kuch hai, sab ----
            Products ka data upar wale PRODUCTS array se live liya jata hai, taake
            card par jo price/features/status hai, Shizcon bhi wahi bole. Baaki
-           sections (Website Demos, Automation, How to Buy, Pricing, About, FAQ,
+           sections (Live Demos, Automation, How to Buy, Pricing, About, FAQ,
            Privacy/Terms, Order/Contact) ke jawab neeche section-wise diye hain. */
         var SITE_DEMOS = [
-          { keys:['unit converter','converter site','converters.'], name:'Unit Converter', url:'converters.alasadconstructors.com', desc:'Free online unit converter — Length, Temperature, Area, Volume, Weight aur Time — saath mein 11 conversion guides.' },
-          { keys:['studyhive','study hive','notes','past paper','class 1','class 9','class 12','sindh board'], name:'StudyHive9', url:'studyhive9.blogspot.com', desc:'Sindh Board Class 1 se 12 tak ke notes, past papers aur study plans — students ke liye.' },
-          { keys:['bytepulse','byte pulse','hookvault','tech news'], name:'BytePulse News', url:'thehookvault.blogspot.com', desc:'AI tools aur tech news — latest tools, trends aur explainers.' },
-          { keys:['nutrifuel','nutri fuel','nutrition','health guide'], name:'NutriFuel HQ', url:'nutrifuelhq.blogspot.com', desc:'Health aur nutrition guides — roz-marra ki sehat ke liye.' },
-          { keys:['quickgrad','quick grad','grade calculator','bmi','loan calculator'], name:'QuickGrad', url:'quickgrad.blogspot.com', desc:'Grade, percentage, age, BMI aur loan calculators — English aur Arabic mein.' }
+          { keys:['ai agent platform','agent platform','website chatbot','call agent'], name:'AI Agent Platform', url:'shizcon.github.io/ai-agent-platform', desc:'AI agents banayein — website chatbot aur call agent ke saath.' },
+          { keys:['restaurant demo','resturant','hotel demo','table qr','kitchen demo'], name:'Restaurant & Hotel Management System Demo', url:'chattertoon9-ai.github.io/resturant-shiz', desc:'Restaurant orders, kitchen, billing aur table QR — live demo online hai.' },
+          { keys:['moosa'], name:'Moosa Enterprises Website', url:'chattertoon9-ai.github.io/moosa-enterprises', desc:'Construction company website.' },
+          { keys:['free tools hub','free tools'], name:'Free Tools Hub', url:'chattertoon9-ai.github.io/free-tools-hub', desc:'10 free online tools — converters aur calculators.' },
+          { keys:['alasad','al asad','asad constructors'], name:'Alasad Constructors Website', url:'alasadconstructors.com', desc:'Construction company website — live.' },
+          { keys:['studyhive','study hive','notes','past paper','class 1','class 9','class 12','sindh board'], name:'StudyHive9', url:'studyhive9.blogspot.com', desc:'Class 1-12 notes aur study material — Sindh Board.' },
+          { keys:['unit converter','converter site','converters.'], name:'Converters — Unit Converter', url:'converters.alasadconstructors.com', desc:'Unit converter tools — Length, Temperature, Area, Volume, Weight aur Time.' },
+          { keys:['cgpa','credit hours','gpa calculator'], name:'University CGPA & Credit Hours Tool', url:'muse.ai (CGPA Tool)', desc:'CGPA aur credit hours calculator.' },
+          { keys:['novex demo','agent rooms','novex agent'], name:'Novex Agent System Demo', url:'muse.ai (Novex demo)', desc:'Agent rooms aur automation system.' },
+          { keys:['map planner','house map','floor plan','2d map','3d map','ghar ka map'], name:'AI Map Planner', url:'muse.ai (AI Map Planner)', desc:'2D aur 3D house map plan banayein.' },
+          { keys:['shizco1','capp','construction manager demo'], name:'Shizco1 / Capp', url:'chattertoon9-ai.github.io/Shizco1', desc:'Construction management system — login required, demo access on request.' },
+          { keys:['shizcon ai app','shizcon app','mobile app','jervis app'], name:'Shizcon AI App', url:'koi public link nahi', desc:'Mobile app — demo on request (mobile install).' }
         ];
         var SITE_AUTOMATION = [
           { keys:['youtube automation','faceless','shorts automation'], name:'YouTube Automation', desc:'Faceless videos aur Shorts — titles, descriptions, tags aur full SEO ke saath, scheduled aur uploaded. Bilkul waisay hi jaisay Chotu Toons aur Shiza Vibes chalte hain. Price project ke hisaab se quote hoti hai — Enquire karein.' },
@@ -1611,29 +1699,29 @@
             if(prod.id==='free-tools') return 'Free Tools Hub live hai aur FREE hai: chattertoon9-ai.github.io/free-tools-hub — 10 tools, koi sign-up nahi. Isi page par Free Tools Hub ki Details kholein to ek converter demo yahi chal raha hai, try karein!';
             if(prod.id==='shizco1') return 'Shizco1 ka live demo online hai: chattertoon9-ai.github.io/Shizco1 — khol kar projects, budgets, Kanban, Gantt aur Roznamcha sab explore karein. Neeche Live panel aur product card se bhi Demo button mil jayega.';
             if(prod.id==='jervis') return 'Jervis AI ka working demo isi page par hai: Software section mein Jervis AI ki Details kholein — andar Security Shield ka live demo hai, link ya message paste kar ke check karein. Aur main khud bhi Jervis ki hi character hoon — mujh se bol kar hi aap demo le rahe hain!';
-            if(prod.id==='alasad-site') return 'Alasad Constructors ka advanced preview live hai: alasadconstructors.com/test2 — 82 projects, services, QHSE aur certificates ke saath. Upar Live panel mein bhi is ka link hai.';
-            if(prod.id==='restaurant-hotel') return 'Restaurant & Hotel System abhi development mein hai, is liye public demo abhi nahi — lekin full feature list neeche is ki Details mein hai. Early list mein shamil hone ke liye enquiry bhejein, aap ka module khulte hi rabta hoga.';
+            if(prod.id==='alasad-site') return 'Alasad Constructors ki website live hai: alasadconstructors.com — 82 projects, services, QHSE aur certificates ke saath. Live Demos section aur upar Live panel mein bhi is ka link hai.';
+            if(prod.id==='restaurant-hotel') return 'Restaurant & Hotel System ka live demo online hai: chattertoon9-ai.github.io/resturant-shiz — restaurant orders, kitchen, billing aur table QR sab khud try karein. Neeche Live Demos section aur product card dono se Demo button mil jayega. Full setup ke liye enquiry bhejein.';
             return prod.name + ' ka demo: ' + prodAnswer(prod, false);
           }
 
           if(t.indexOf('try') > -1 || t.indexOf('pehle test') > -1)
-            return 'Bilkul, try before you buy! Free Tools Hub aur Shizco1 live hain — free khol kar use karein. Jervis AI ka Security Shield demo isi page par hai, aur Free Tools Hub ka converter demo bhi. Novex aur baaki systems ki full feature lists yahi hain, screenshots request par mil jate hain.';
+            return 'Bilkul, try before you buy! Live Demos section mein 12 demos hain — Restaurant & Hotel System, Free Tools Hub, Shizco1, Novex, AI Map Planner aur baaki sab, har ek naye tab mein khulta hai. Jervis AI ka Security Shield demo isi page par hai, aur Free Tools Hub ka converter demo bhi.';
           if(wantsDemo && t.indexOf('website demo') === -1)
-            return 'Live demos bilkul hain — 3 live demos online hain: Free Tools Hub (10 free tools, live), Shizco1 Construction Manager (live demo) aur Alasad Constructors ka preview (alasadconstructors.com/test2). Isi page par 2 working demos bhi hain: Jervis ki Details mein Security Shield demo, aur Free Tools Hub ki Details mein converter demo. Us ke ilawa neeche Website Demos section mein 5 live websites hain — Unit Converter, StudyHive9, BytePulse, NutriFuel aur QuickGrad. Kisi khaas product ka naam lein to usi ka demo bata dungi.';
+            return 'Live demos bilkul hain — neeche Live Demos section mein 12 demos hain: AI Agent Platform, Restaurant & Hotel System (live demo), Moosa Enterprises, Free Tools Hub, Alasad Constructors, StudyHive9, Converters, CGPA & Credit Hours Tool, Novex, AI Map Planner, Shizco1 / Capp (login required) aur Shizcon AI App (demo on request). Har demo naye tab mein khulta hai aur har card par Order / Enquire button hai. Isi page par 2 working demos bhi hain: Jervis ki Details mein Security Shield demo, aur Free Tools Hub ki Details mein converter demo. Kisi khaas product ka naam lein to usi ka demo bata dungi.';
           if((t.indexOf('ready hai') > -1 || t.indexOf('kab milega') > -1 || t.indexOf('kab aayega') > -1) && (t.indexOf('restaurant') > -1 || t.indexOf('hotel') > -1))
-            return 'Restaurant & Hotel Management System abhi active development mein hai — ready nahi hai. Pehle restaurant side (menu, tables, orders, billing) aur hotel side (rooms, bookings, check-in/check-out, guests) aayegi; school aur office modules usi system mein baad mein aayenge. Enquiry bhejein to early list mein naam aa jayega — aap ka module khulte hi rabta hoga.';
+            return 'Restaurant & Hotel Management System ka live demo ready hai aur online hai — Live Demos section se khol kar restaurant orders, kitchen, billing aur table QR try karein. Hotel side (rooms, bookings, check-in/check-out, guests) bhi usi system ka hissa hai; school aur office modules baad mein aayenge. Full setup ke liye enquiry bhejein.';
           if((t.indexOf('cloud storage') > -1 || t.indexOf('cloud') > -1) && (t.indexOf('matlab') > -1 || t.indexOf('kya hai') > -1 || t.indexOf('meaning') > -1))
             return 'Cloud storage ka matlab: Jervis AI with Storage aur management systems apna data — tasks, approvals, settings, orders, bookings — browser ke bajaye database mein save karte hain. Page reload karein ya agle din wapas aayein, sab waisa ka waisa milta hai, har dafa khaali se shuru nahi karna padta.';
 
-          /* --- Website Demos section --- */
+          /* --- Live Demos section --- */
           for(var d=0; d<SITE_DEMOS.length; d++){
             for(var dk=0; dk<SITE_DEMOS[d].keys.length; dk++){
               if(t.indexOf(SITE_DEMOS[d].keys[dk]) > -1)
-                return SITE_DEMOS[d].name + ' (' + SITE_DEMOS[d].url + ') — ' + SITE_DEMOS[d].desc + ' Ye Fayaz ki live website hai; neeche Website Demos section mein Live Demo button se naye tab mein khul jayegi.';
+                return SITE_DEMOS[d].name + ' (' + SITE_DEMOS[d].url + ') — ' + SITE_DEMOS[d].desc + ' Neeche Live Demos section mein is ke card se demo naye tab mein khul jayega, aur Order / Enquire button order form tak le jayega.';
             }
           }
-          if(t.indexOf('website demo') > -1 || t.indexOf('websites') > -1 || t.indexOf('live website') > -1 || t.indexOf('demo website') > -1)
-            return 'Website Demos section mein Fayaz ki 5 live websites hain: 1) Unit Converter — converters.alasadconstructors.com, 6 categories aur 11 guides. 2) StudyHive9 — Sindh Board Class 1–12 notes aur past papers. 3) BytePulse News — AI tools aur tech news. 4) NutriFuel HQ — health aur nutrition guides. 5) QuickGrad — grade, percentage, age, BMI aur loan calculators, English aur Arabic mein. Sab neeche Website Demos section se khulti hain.';
+          if(t.indexOf('website demo') > -1 || t.indexOf('live demo') > -1 || t.indexOf('websites') > -1 || t.indexOf('live website') > -1 || t.indexOf('demo website') > -1)
+            return 'Live Demos section mein 12 demos hain — har ek naye tab mein khulta hai aur har card par Order / Enquire button order form tak le jata hai: 1) AI Agent Platform — AI agents, website chatbot aur call agent. 2) Restaurant & Hotel Management System — orders, kitchen, billing, table QR (live demo). 3) Moosa Enterprises website. 4) Free Tools Hub — 10 free tools. 5) Alasad Constructors website. 6) StudyHive9 — Class 1-12 notes. 7) Converters — unit converter tools. 8) University CGPA & Credit Hours Tool. 9) Novex Agent System — agent rooms aur automation. 10) AI Map Planner — 2D aur 3D house map plans. 11) Shizco1 / Capp — construction management (login required, demo access on request). 12) Shizcon AI App — mobile app, demo on request (mobile install). Sab neeche Live Demos section se khulte hain.';
 
           /* --- Automation section --- */
           for(var a=0; a<SITE_AUTOMATION.length; a++){
@@ -1647,7 +1735,7 @@
 
           /* --- Products ki list / website par kya kya hai --- */
           if(t.indexOf('product') > -1 || t.indexOf('software') > -1 || t.indexOf('kya kya') > -1 || t.indexOf('services') > -1 || t.indexOf('sab batao') > -1 || t.indexOf('website par kya') > -1 || t.indexOf('is website') > -1 || t.indexOf('ye website') > -1)
-            return 'Is website par sab kuch hai: SOFTWARE — 8 products: Restaurant & Hotel Management System, Jervis AI, Jervis AI with Storage, Novex Agent System, Shizco1 Construction Manager, Free Tools Hub, Spark PC Helper aur Alasad Constructors Website. Phir 5 live Website Demos, 5 Automation services, Jervis ke pricing packages (90/120/250 dollars), How to Buy ke 3 steps, About, FAQ aur Order form. Kisi bhi cheez ka naam lein — main us ki poori tafseel, price aur status bata dungi.';
+            return 'Is website par sab kuch hai: SOFTWARE — 8 products: Restaurant & Hotel Management System, Jervis AI, Jervis AI with Storage, Novex Agent System, Shizco1 Construction Manager, Free Tools Hub, Spark PC Helper aur Alasad Constructors Website. Phir 12 Live Demos, 5 Automation services, Jervis ke pricing packages (90/120/250 dollars), How to Buy ke 3 steps, About, FAQ aur Order form. Kisi bhi cheez ka naam lein — main us ki poori tafseel, price aur status bata dungi.';
 
           /* --- Khaas product ki tafseel (naam aaya ho) --- */
           if(prod) return prodAnswer(prod, true);
@@ -1656,13 +1744,13 @@
           if(t.indexOf('cloud storage') > -1 || t.indexOf('cloud') > -1 || t.indexOf('database') > -1 || t.indexOf('data save') > -1 || t.indexOf('reload') > -1)
             return 'Cloud storage ka matlab: Jervis AI with Storage aur management systems apna data — tasks, approvals, settings, orders, bookings — browser ke bajaye database mein save karte hain. Page reload karein ya agle din wapas aayein, sab waisa ka waisa milta hai, har dafa khaali se shuru nahi karna padta.';
           if(t.indexOf('try') > -1 || t.indexOf('pehle test') > -1 || t.indexOf('buy se pehle') > -1 || t.indexOf('kharidne se pehle') > -1)
-            return 'Bilkul, try before you buy! Free Tools Hub aur Shizco1 live hain — free khol kar use karein. Jervis AI ka Security Shield demo isi page par hai, aur Free Tools Hub ka converter demo bhi. Novex aur baaki systems ki full feature lists yahi hain, screenshots request par mil jate hain.';
+            return 'Bilkul, try before you buy! Live Demos section mein 12 demos hain — Restaurant & Hotel System, Free Tools Hub, Shizco1, Novex, AI Map Planner aur baaki sab, har ek naye tab mein khulta hai. Jervis AI ka Security Shield demo isi page par hai, aur Free Tools Hub ka converter demo bhi.';
           if(t.indexOf('custom') > -1 || t.indexOf('meri marzi') > -1 || t.indexOf('mere business') > -1 || t.indexOf('apne business') > -1 || t.indexOf('banwa') > -1)
             return 'Bilkul, custom build ho sakta hai — yahan ke zyada tar products custom builds se hi bane hain. Apne business ke liye voice assistant with apna character, restaurant/hotel/school/office ka management system, ya Alasad jaisi complete business website — sab quote ho sakta hai. Neeche order form mein apna project describe kar dein.';
           if(t.indexOf('restaurant') > -1 || t.indexOf('hotel') > -1 || t.indexOf('ready hai') > -1 || t.indexOf('kab milega') > -1)
-            return 'Restaurant & Hotel Management System abhi active development mein hai. Pehle restaurant side (menu, tables, orders, billing) aur hotel side (rooms, bookings, check-in/check-out, guests) aayegi; school aur office modules usi system mein baad mein aayenge. Enquiry bhejein to early list mein naam aa jayega — aap ka module khulte hi rabta hoga.';
+            return 'Restaurant & Hotel Management System ka live demo online hai — restaurant orders, kitchen, billing aur table QR Live Demos section se try karein. Hotel side (rooms, bookings, check-in/check-out, guests) usi system ka hissa hai; school aur office modules baad mein aayenge. Full setup ke liye enquiry bhejein.';
           if(t.indexOf('school') > -1 || t.indexOf('office module') > -1)
-            return 'School aur office modules Restaurant & Hotel Management System ke andar hi aayenge — restaurant aur hotel sides ke baad. Abhi woh system development mein hai; enquiry se early list mein shamil ho jayein.';
+            return 'School aur office modules Restaurant & Hotel Management System ke andar hi aayenge — restaurant aur hotel sides ke baad. Restaurant system ka live demo abhi online hai, Live Demos section se try karein; school aur office modules ke liye enquiry bhejein.';
           if(t.indexOf('privacy') > -1 || t.indexOf('data collect') > -1 || t.indexOf('mera data') > -1 || t.indexOf('personal information') > -1)
             return 'Privacy saaf hai: ye static page koi account nahi chalati aur page ke zariye personal information collect, store ya sell nahi karti. Calculators, converters aur link checker sirf aap ke browser mein chalte hain — jo type karein woh kahin send nahi hota. Order form aap ke apne mail app mein email kholta hai; woh email sirf reply aur quote ke liye use hota hai, marketing ke liye kisi ko nahi diya jata. Page par Google AdSense ke ads aa sakte hain, jin ki cookies Google ki policy se chalti hain. Neeche Privacy Policy & Terms mein poori tafseel hai.';
           if(t.indexOf('terms') > -1 || t.indexOf('sharaait') > -1 || t.indexOf('policy') > -1)
@@ -1672,11 +1760,11 @@
           if(t.indexOf('free') > -1)
             return 'Free mein kya hai? Free Tools Hub — 10 converters aur calculators, bilkul free, koi sign-up nahi, hamesha free. Shizco1 ka live demo bhi free explore kar sakte hain, aur isi page par Shield aur converter demos bhi free hain. Free tools advertising se supported hain, is liye free reh sakte hain. Baaki full software paid hai — Jervis AI 90 dollars se shuru.';
           if(t.indexOf('live hai') > -1 || t.indexOf('available') > -1 || t.indexOf('status') > -1)
-            return 'Status ye hai: LIVE / available now — Jervis AI, Jervis AI with Storage, Novex Agent System, Shizco1 (live demo online), Spark PC Helper, Alasad Constructors Website (completed & live) aur Free Tools Hub (free, live). IN DEVELOPMENT — sirf Restaurant & Hotel Management System. Har card par us ka status tag laga hai.';
+            return 'Status ye hai: sab products LIVE / available hain — Jervis AI, Jervis AI with Storage, Novex Agent System, Shizco1 (live demo online), Restaurant & Hotel Management System (live demo online), Spark PC Helper, Alasad Constructors Website (completed & live) aur Free Tools Hub (free, live). Koi bhi product ab in development nahi hai. Har card par us ka status tag laga hai.';
 
           /* --- Help --- */
           if(t.indexOf('help') > -1 || t.indexOf('madad') > -1 || t.indexOf('kya kar sakti') > -1 || t.indexOf('kar sakti ho') > -1 || t.indexOf('kya kya bata') > -1)
-            return 'Main is website ki har cheez bata sakti hoon: 8 products ki tafseel, features, prices aur status; 5 website demos; 5 automation services; Jervis ke Basic/Standard/Premium packages ka farq; How to Buy ke steps; payment, delivery aur setup; saare FAQ; About Fayaz; Privacy aur Terms — aur order form tak le jana bhi. Bas product ya topic ka naam lein, ya apne alfaaz mein poochein!';
+            return 'Main is website ki har cheez bata sakti hoon: 8 products ki tafseel, features, prices aur status; 12 live demos; 5 automation services; Jervis ke Basic/Standard/Premium packages ka farq; How to Buy ke steps; payment, delivery aur setup; saare FAQ; About Fayaz; Privacy aur Terms — aur order form tak le jana bhi. Bas product ya topic ka naam lein, ya apne alfaaz mein poochein!';
 
           /* --- Aakhri koshish: lafz mila kar product/demo/automation dhoondho --- */
           var stopWords = ['live','demo','free','batao','bata','kya','hai','hain','mujhe','aap','kuch','sawal','jawab','chahiye','karna','karo','please','about','what','tell','show','give','website','page','section','wala','wali','wale','kaun','kahan','kab','kaise','mera','meri','tum','yeh','woh','aur','mein','par','se','ka','ki','ke','ko','ho','ha','bhi','nahi','sakta','sakti','hoga','hogi','milega','ready','price','order'];
@@ -1691,7 +1779,7 @@
               for(var wj=0; wj<words.length; wj++){ if(hay.indexOf(words[wj]) > -1) return prodAnswer(PRODUCTS[pj], true); }
             }
           }
-          return 'Ye sawal is website ke topics se thora bahar hai — lekin is page par jo kuch hai, us ka jawab mere paas hai: 8 products (naam lein: Jervis, Novex, Restaurant system, Shizco1, Free Tools, Spark PC Helper…), un ki prices aur packages, 5 live website demos, 5 automation services, How to Buy, FAQ, About Fayaz, Privacy/Terms aur order ka tareeqa. In mein se kuch poochein, main tafseel se bata dungi!';
+          return 'Ye sawal is website ke topics se thora bahar hai — lekin is page par jo kuch hai, us ka jawab mere paas hai: 8 products (naam lein: Jervis, Novex, Restaurant system, Shizco1, Free Tools, Spark PC Helper…), un ki prices aur packages, 12 live demos, 5 automation services, How to Buy, FAQ, About Fayaz, Privacy/Terms aur order ka tareeqa. In mein se kuch poochein, main tafseel se bata dungi!';
         }
         function handleUser(text){
           var clean = (text || '').trim();
